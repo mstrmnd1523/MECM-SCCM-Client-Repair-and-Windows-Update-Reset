@@ -1,9 +1,9 @@
-# MECM-SCCM-Client-Repair-and-Windows-Update-Reset
+# MEMCM-SCCM-Client-Repair-and-Windows-Update-Reset
 # DESCRIPTION:
-PowerShell Script to uninstall and reinstall the MECM\SCCM Client and reset Windows update
+PowerShell Script to uninstall and reinstall the MEMCM\SCCM Client and reset Windows update
 
 # SYNOPSIS:
-After specifying the location for MECM\SCCM client install files. This script will prompt the user to enter a selection to run against a single computer/Comma seperated list, or run against a list of computer names from a text file.
+After specifying the location for MEMCM\SCCM client install files. This script will prompt the user to enter a selection to run against a single computer/Comma seperated list, or run against a list of computer names from a text file.
 User will be prompted to enter credentials that have administrator rights on the computers specified.
 
 The script will: 
@@ -20,7 +20,7 @@ The script will:
   - "C:\Windows\SoftwareDistribution" to "C:\Windows\SoftwareDistributionBackup"
   - "C:\Windows\System32\catroot2" to "C:\Windows\System32\catroot2Backup"
   
-  - Reinstall the MECM\SCCM Client
+  - Reinstall the MEMCM\SCCM Client
   - Remove the Client isntall files from the computer
   - Write an ouptput file with the results from each computer
 
